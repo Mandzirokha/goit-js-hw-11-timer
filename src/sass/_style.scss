@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: mintcream;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.timer {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25%;
+}
+
+.field {
+  background-color: rgb(93, 207, 207);
+  margin: 10px;
+  // display: inline-block;
+  // flex-direction: column;
+  // text-align: center;
+}
+
+.value {
+  display: flex;
+  font-weight: bold;
+  font-size: 60px;
+  padding-right: 10px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+}
